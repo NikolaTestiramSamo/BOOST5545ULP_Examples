@@ -1,0 +1,1 @@
+"./src/hwfftTest.obj" "../C5545.cmd" -llibc.a -lrts55x.lib 

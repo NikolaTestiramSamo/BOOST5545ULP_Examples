@@ -1,0 +1,1 @@
+"./src/fbit_rev.obj" "./src/fft_float.obj" "./src/float_fftTest.obj" "../C5545.cmd" -llibc.a 

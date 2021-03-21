@@ -1,0 +1,1 @@
+"./src/dualMacFir.obj" "./src/dualMacFirTest.obj" "../C5545.cmd" -llibc.a 

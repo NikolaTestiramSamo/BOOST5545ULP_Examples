@@ -1,0 +1,1 @@
+"./src/asm_dft128Test.obj" "./src/dft128.obj" "./src/mag_128.obj" "./src/sine_cos.obj" "../C5545.cmd" -llibc.a 

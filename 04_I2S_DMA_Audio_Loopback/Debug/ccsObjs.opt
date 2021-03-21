@@ -1,0 +1,1 @@
+"./src/AIC3204_init.obj" "./src/audio.obj" "./src/audioLoopbackTest.obj" "./src/dma.obj" "./src/i2s.obj" "./src/i2s_register.obj" "./src/vector.obj" "../C5545.cmd" -llibc.a 

@@ -1,0 +1,1 @@
+"./src/float_dft128.obj" "./src/float_dft128Test.obj" "./src/float_mag128.obj" "../C5545.cmd" -llibc.a 

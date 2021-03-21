@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule configRelations="2" moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1268675371">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1268675371" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1268675371" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C5500.Debug">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1268675371." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.DebugToolchain.776841813" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerDebug.1595912426">
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1009723508" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C55XX.TMS320C5545"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=big"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=C5545.cmd"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="PRODUCTS="/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={}"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.88820197" name="Compiler version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="4.4.1" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.targetPlatformDebug.1587014867" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.targetPlatformDebug"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.builderDebug.51220666" keepEnvironmentInBuildfile="false" name="GNU Make" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.compilerDebug.287888211" name="C5500 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.compilerDebug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEFINE.1125125781" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="c5545"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL.1772127581" name="Specify memory model (small/large/huge) (--memory_model)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL.large" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE.739395075" name="Specify type size to hold results of pointer math (--ptrdiff_size)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE.16" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.SILICON_VERSION.768770450" name="Device+optional revision of target silicon (--silicon_version, -v)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.SILICON_VERSION" useByScannerDiscovery="false" value="5515" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEBUGGING_MODEL.1500092704" name="Debugging model" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEBUGGING_MODEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEBUGGING_MODEL.SYMDEBUG__DWARF" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING.590326069" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER.1618241205" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH.1566064346" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}\inc"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS.1462080379" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS.836899768" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM_SRCS.162285731" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM2_SRCS.1662954940" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerDebug.1595912426" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.STACK_SIZE.1319793303" name="Set C system stack size (--stack_size, -stack)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.STACK_SIZE" useByScannerDiscovery="false" value="0x1000" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SYS_STACKSIZE.1492186107" name="Specify size of output sysstack section (--sys_stacksize, -sysstack)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SYS_STACKSIZE" useByScannerDiscovery="false" value="0x200" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.HEAP_SIZE.1780131867" name="Heap size for C/C++ dynamic memory allocation (--heap_size, -heap)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.HEAP_SIZE" useByScannerDiscovery="false" value="0x1000" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.OUTPUT_FILE.36170887" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.OUTPUT_FILE" useByScannerDiscovery="false" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.MAP_FILE.1837357408" name="Input and output sections listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.MAP_FILE" useByScannerDiscovery="false" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.XML_LINK_INFO.1714328021" name="Detailed link information data-base into &lt;file&gt; (--xml_link_info, -xml_link_info)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.XML_LINK_INFO" useByScannerDiscovery="false" value="${ProjName}_linkInfo.xml" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER.1111593366" name="Emit diagnostic identifier numbers (--display_error_number)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH.477185710" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY.1420903374" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="libc.a"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS.1919338167" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS.1278681613" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__GEN_CMDS.462984204" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.hex.1616673682" name="C5500 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.hex"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C5500.Release.2060321091">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C5500.Release.2060321091" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C5500.Release.2060321091" name="Release" parent="com.ti.ccstudio.buildDefinitions.C5500.Release">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C5500.Release.2060321091." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.ReleaseToolchain.571283501" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerRelease.93833738">
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1837775723" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C55XX.TMS320C5545"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=big"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=C5545.cmd"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="PRODUCTS="/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={}"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.758583348" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="4.4.1" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.targetPlatformRelease.1024131478" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.targetPlatformRelease"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.builderRelease.137955214" name="GNU Make.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.builderRelease"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.compilerRelease.1652333129" name="C5500 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.compilerRelease">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEFINE.6596027" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="c5545"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL.810522202" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.MEMORY_MODEL.large" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE.1612475259" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PTRDIFF_SIZE.16" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.SILICON_VERSION.142463223" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.SILICON_VERSION" useByScannerDiscovery="false" value="5515" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING.1566689291" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER.583224708" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH.2082793978" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS.367463962" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS.339782248" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM_SRCS.216622422" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM2_SRCS.1311260803" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerRelease.93833738" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exe.linkerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.STACK_SIZE.2005528397" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.STACK_SIZE" useByScannerDiscovery="false" value="0x200" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SYS_STACKSIZE.1021531654" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SYS_STACKSIZE" useByScannerDiscovery="false" value="0x200" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.HEAP_SIZE.1932440186" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.HEAP_SIZE" useByScannerDiscovery="false" value="0x400" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.OUTPUT_FILE.75871238" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.OUTPUT_FILE" useByScannerDiscovery="false" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.MAP_FILE.777315180" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.MAP_FILE" useByScannerDiscovery="false" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.XML_LINK_INFO.1413436991" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.XML_LINK_INFO" useByScannerDiscovery="false" value="${ProjName}_linkInfo.xml" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER.116231107" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH.1553870178" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY.521649539" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="libc.a"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS.1235108538" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS.419690255" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__GEN_CMDS.1760484155" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.4.hex.750826411" name="C5500 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.hex"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="12_fixedPoint_cascadeIIR.com.ti.ccstudio.buildDefinitions.C5500.ProjectType.372121291" name="C5500" projectType="com.ti.ccstudio.buildDefinitions.C5500.ProjectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

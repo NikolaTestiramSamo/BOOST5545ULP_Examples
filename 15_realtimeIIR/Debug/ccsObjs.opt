@@ -1,0 +1,1 @@
+"./src/AIC3204_init.obj" "./src/asmIIR.obj" "./src/dma.obj" "./src/i2s.obj" "./src/i2s_register.obj" "./src/iirFilter.obj" "./src/realtimeIIRTest.obj" "./src/vector.obj" "../C5545.cmd" -llibc.a 

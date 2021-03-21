@@ -1,0 +1,1 @@
+"./src/fixedPointBlockFir.obj" "./src/fixedPointBlockFirTest.obj" "../C5545.cmd" -llibc.a 
